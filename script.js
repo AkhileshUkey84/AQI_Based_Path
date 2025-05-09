@@ -1,7 +1,3 @@
-// Configuration
-const OPENWEATHER_KEY = "cc89ee52f5cdf7cd8a3915cba042774f";
-const OPENCAGE_KEY = "c8757ad0a33247e98b6faf04d8ed744f";
-
 // Initialize map
 const map = L.map("map").setView([18.5204, 73.8567], 12);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
